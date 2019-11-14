@@ -116,6 +116,11 @@
             android:persistent="false"
             android:title="@string/accessibility_text_reading_options_title"
             settings:controller="com.android.settings.accessibility.TextReadingFragmentForDisplaySettingsController"/>
+
+        <ListPreference
+            android:key="display_cutout_emulation"
+            android:title="@string/display_cutout_emulation"
+            settings:keywords="@string/display_cutout_emulation_keywords" />
     </PreferenceCategory>
 
     <PreferenceCategory
