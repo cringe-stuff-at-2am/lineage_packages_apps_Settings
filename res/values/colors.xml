@@ -336,4 +336,13 @@
     <color name="setup_compat_footer_primary_button_bg_color">@*android:color/system_primary_light</color>
     <color name="setup_compat_footer_primary_button_text_color">@*android:color/system_on_primary_light</color>
 
+    <!-- Expressive QR -->
+    <color name="wifi_qr_accent_foreground">@android:color/system_tertiary_light</color>
+    <color name="wifi_qr_background_surface">@android:color/system_surface_container_highest_light</color>
+    <color name="wifi_qr_primary_background">@android:color/system_primary_light</color>
+    <color name="wifi_qr_primary_foreground">@android:color/system_primary_light</color>
+    <color name="wifi_qr_secondary_background">@android:color/system_on_surface_light</color>
+    <color name="wifi_qr_secondary_foreground">@android:color/system_secondary_light</color>
+    <color name="wifi_qr_tertiary_background">@android:color/system_tertiary_container_light</color>
+
 </resources>
