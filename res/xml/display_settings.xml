@@ -117,6 +117,12 @@
             android:title="@string/accessibility_text_reading_options_title"
             settings:controller="com.android.settings.accessibility.TextReadingFragmentForDisplaySettingsController"/>
 
+        <Preference
+            android:key="gesture_system_navigation_input_summary"
+            android:title="@string/system_navigation_title"
+            android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
+            settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"/>
+
         <ListPreference
             android:key="display_cutout_emulation"
             android:title="@string/display_cutout_emulation"
